@@ -1,0 +1,6 @@
+# Dependencies are downloaded from pinned official releases by Setup.ps1.
+Lib/
+Driver/
+*.zip
+*.log
+*.lnk
