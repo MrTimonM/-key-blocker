@@ -32,3 +32,11 @@ The app's single-key writer places the matrix slot index in byte 2 and the four-
 Do not send the app's write commands to this keyboard. First add a descriptor/interface selector and a read-only capture mode to the inspector, then compare the keyboard's feature-report sizes and responses with the JEDEL protocol. The previous inspector version opened the wrong HID interface and temporarily stopped normal typing, so all future probing must have an explicit close/recovery path and must never issue `SET_*` commands.
 
 The current WebHID descriptor shows a vendor collection with a 519-byte feature report, which differs from the app's 64-byte feature-message path. That is another reason to treat the two protocols as unconfirmed until captured safely.
+
+## PCB evidence
+
+A PCB photograph shows the silkscreen:
+
+`K81 BYK916+8805 V1 20240514`
+
+`BYK916` is a SinoWealth keyboard platform name. The community `sinowisp` hardware table associates BYK916 boards with the SH68F90A family, so this is strong evidence that the keyboard uses an SH68F90-series controller. It is still not a firmware dump or proof that the SuperFrame Phantom firmware is compatible; the board also has an `8805` companion marking and may use a different OEM keymap/protocol variant.
