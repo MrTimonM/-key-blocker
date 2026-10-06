@@ -1,5 +1,7 @@
 # External keyboard bracket blocker
 
+**New: [WebHID inspector](inspector/README.md)** — a local read-only research tool for capturing USB report definitions and key behavior before attempting onboard remapping. Launch it with `Start-Inspector.cmd` (requires Node.js).
+
 Blocks a faulty physical `[` key on the configured external keyboard over **Bluetooth or USB**, while leaving the laptop keyboard and devices with different hardware identifiers alone.
 
 This repository preserves the working setup for a keyboard identified by its owner as **Jedel WKL 100**. It is a Windows workaround, not a hardware repair or firmware update. The identifiers below were captured from this particular setup; they are not a claim that every WKL 100 uses these identifiers.
