@@ -1,0 +1,7 @@
+{
+  "base_first_255_match_dump": true,
+  "fn_first_255_match_dump": true,
+  "full_readback": false,
+  "command": "09 83 layer 00 01 00 FF 00",
+  "no_bootloader_transition": true
+}

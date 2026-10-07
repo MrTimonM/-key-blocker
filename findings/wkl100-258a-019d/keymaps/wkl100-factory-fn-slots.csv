@@ -1,0 +1,129 @@
+slot,address,raw,action
+0,0xC800,08 ff 00 00,Internal/extended action 08 ff 00 00 (preserve)
+1,0xC804,08 07 00 00,Internal/extended action 08 07 00 00 (preserve)
+2,0xC808,00 00 00 00,Zero action; behavior unverified
+3,0xC80C,00 00 00 00,Zero action; behavior unverified
+4,0xC810,00 00 00 00,Zero action; behavior unverified
+5,0xC814,00 00 00 00,Zero action; behavior unverified
+6,0xC818,02 00 01 83,Internal/extended action 02 00 01 83 (preserve)
+7,0xC81C,08 09 13 00,Internal/extended action 08 09 13 00 (preserve)
+8,0xC820,07 00 00 05,Internal/extended action 07 00 00 05 (preserve)
+9,0xC824,00 00 00 00,Zero action; behavior unverified
+10,0xC828,00 00 00 00,Zero action; behavior unverified
+11,0xC82C,07 00 00 01,Internal/extended action 07 00 00 01 (preserve)
+12,0xC830,02 00 00 ea,Internal/extended action 02 00 00 ea (preserve)
+13,0xC834,00 00 00 00,Zero action; behavior unverified
+14,0xC838,07 00 00 06,Internal/extended action 07 00 00 06 (preserve)
+15,0xC83C,00 00 00 00,Zero action; behavior unverified
+16,0xC840,00 00 00 00,Zero action; behavior unverified
+17,0xC844,00 00 00 00,Zero action; behavior unverified
+18,0xC848,02 00 00 e9,Internal/extended action 02 00 00 e9 (preserve)
+19,0xC84C,00 00 00 00,Zero action; behavior unverified
+20,0xC850,07 00 00 07,Internal/extended action 07 00 00 07 (preserve)
+21,0xC854,00 00 00 00,Zero action; behavior unverified
+22,0xC858,00 00 00 00,Zero action; behavior unverified
+23,0xC85C,00 00 00 00,Zero action; behavior unverified
+24,0xC860,02 00 00 e2,Internal/extended action 02 00 00 e2 (preserve)
+25,0xC864,00 00 00 00,Zero action; behavior unverified
+26,0xC868,07 00 00 08,Internal/extended action 07 00 00 08 (preserve)
+27,0xC86C,00 00 00 00,Zero action; behavior unverified
+28,0xC870,00 00 00 00,Zero action; behavior unverified
+29,0xC874,00 00 00 00,Zero action; behavior unverified
+30,0xC878,02 00 00 b7,Internal/extended action 02 00 00 b7 (preserve)
+31,0xC87C,00 00 00 00,Zero action; behavior unverified
+32,0xC880,00 00 00 00,Zero action; behavior unverified
+33,0xC884,07 00 00 0a,Internal/extended action 07 00 00 0a (preserve)
+34,0xC888,00 00 00 00,Zero action; behavior unverified
+35,0xC88C,00 00 00 00,Zero action; behavior unverified
+36,0xC890,02 00 00 b6,Internal/extended action 02 00 00 b6 (preserve)
+37,0xC894,00 00 00 00,Zero action; behavior unverified
+38,0xC898,00 00 00 00,Zero action; behavior unverified
+39,0xC89C,00 00 00 00,Zero action; behavior unverified
+40,0xC8A0,00 00 00 00,Zero action; behavior unverified
+41,0xC8A4,00 00 00 00,Zero action; behavior unverified
+42,0xC8A8,02 00 00 cd,Internal/extended action 02 00 00 cd (preserve)
+43,0xC8AC,00 00 00 00,Zero action; behavior unverified
+44,0xC8B0,00 00 00 00,Zero action; behavior unverified
+45,0xC8B4,00 00 00 00,Zero action; behavior unverified
+46,0xC8B8,00 00 00 00,Zero action; behavior unverified
+47,0xC8BC,00 00 00 00,Zero action; behavior unverified
+48,0xC8C0,02 00 00 b5,Internal/extended action 02 00 00 b5 (preserve)
+49,0xC8C4,00 00 00 00,Zero action; behavior unverified
+50,0xC8C8,00 00 00 00,Zero action; behavior unverified
+51,0xC8CC,00 00 00 00,Zero action; behavior unverified
+52,0xC8D0,00 00 00 00,Zero action; behavior unverified
+53,0xC8D4,00 00 00 00,Zero action; behavior unverified
+54,0xC8D8,02 00 01 8a,Internal/extended action 02 00 01 8a (preserve)
+55,0xC8DC,00 00 00 00,Zero action; behavior unverified
+56,0xC8E0,00 00 00 00,Zero action; behavior unverified
+57,0xC8E4,00 00 00 00,Zero action; behavior unverified
+58,0xC8E8,00 00 00 00,Zero action; behavior unverified
+59,0xC8EC,0d 00 00 00,Fn action (preserve)
+60,0xC8F0,02 00 02 23,Internal/extended action 02 00 02 23 (preserve)
+61,0xC8F4,00 00 00 00,Zero action; behavior unverified
+62,0xC8F8,00 00 00 00,Zero action; behavior unverified
+63,0xC8FC,00 00 00 00,Zero action; behavior unverified
+64,0xC900,00 00 00 00,Zero action; behavior unverified
+65,0xC904,00 00 00 00,Zero action; behavior unverified
+66,0xC908,02 00 01 94,Internal/extended action 02 00 01 94 (preserve)
+67,0xC90C,08 04 02 00,Internal/extended action 08 04 02 00 (preserve)
+68,0xC910,00 00 00 00,Zero action; behavior unverified
+69,0xC914,00 00 00 00,Zero action; behavior unverified
+70,0xC918,00 00 00 00,Zero action; behavior unverified
+71,0xC91C,00 00 00 00,Zero action; behavior unverified
+72,0xC920,02 00 01 92,Internal/extended action 02 00 01 92 (preserve)
+73,0xC924,08 04 01 00,Internal/extended action 08 04 01 00 (preserve)
+74,0xC928,00 00 00 00,Zero action; behavior unverified
+75,0xC92C,08 00 00 00,Internal/extended action 08 00 00 00 (preserve)
+76,0xC930,00 00 00 00,Zero action; behavior unverified
+77,0xC934,00 00 00 00,Zero action; behavior unverified
+78,0xC938,00 00 00 00,Zero action; behavior unverified
+79,0xC93C,00 00 00 00,Zero action; behavior unverified
+80,0xC940,08 00 00 00,Internal/extended action 08 00 00 00 (preserve)
+81,0xC944,00 00 00 00,Zero action; behavior unverified
+82,0xC948,07 00 00 1b,Internal/extended action 07 00 00 1b (preserve)
+83,0xC94C,08 01 00 00,Internal/extended action 08 01 00 00 (preserve)
+84,0xC950,00 00 00 00,Zero action; behavior unverified
+85,0xC954,00 00 00 00,Zero action; behavior unverified
+86,0xC958,00 00 00 00,Zero action; behavior unverified
+87,0xC95C,00 00 00 00,Zero action; behavior unverified
+88,0xC960,08 03 01 00,Internal/extended action 08 03 01 00 (preserve)
+89,0xC964,08 03 02 00,Internal/extended action 08 03 02 00 (preserve)
+90,0xC968,00 00 00 00,Zero action; behavior unverified
+91,0xC96C,00 00 00 4a,Home
+92,0xC970,00 00 00 46,Print Screen
+93,0xC974,00 00 00 48,Pause
+94,0xC978,00 00 00 49,Insert
+95,0xC97C,08 02 00 00,Internal/extended action 08 02 00 00 (preserve)
+96,0xC980,00 00 00 00,Zero action; behavior unverified
+97,0xC984,00 00 00 00,Zero action; behavior unverified
+98,0xC988,00 00 00 00,Zero action; behavior unverified
+99,0xC98C,00 00 00 00,Zero action; behavior unverified
+100,0xC990,00 00 00 00,Zero action; behavior unverified
+101,0xC994,00 00 00 00,Zero action; behavior unverified
+102,0xC998,00 00 00 00,Zero action; behavior unverified
+103,0xC99C,00 00 00 00,Zero action; behavior unverified
+104,0xC9A0,00 00 00 00,Zero action; behavior unverified
+105,0xC9A4,00 00 00 00,Zero action; behavior unverified
+106,0xC9A8,00 00 00 00,Zero action; behavior unverified
+107,0xC9AC,00 00 00 00,Zero action; behavior unverified
+108,0xC9B0,00 00 00 00,Zero action; behavior unverified
+109,0xC9B4,00 00 00 00,Zero action; behavior unverified
+110,0xC9B8,00 00 00 00,Zero action; behavior unverified
+111,0xC9BC,00 00 00 00,Zero action; behavior unverified
+112,0xC9C0,00 00 00 00,Zero action; behavior unverified
+113,0xC9C4,00 00 00 00,Zero action; behavior unverified
+114,0xC9C8,00 00 00 00,Zero action; behavior unverified
+115,0xC9CC,00 00 00 00,Zero action; behavior unverified
+116,0xC9D0,00 00 00 00,Zero action; behavior unverified
+117,0xC9D4,00 00 00 00,Zero action; behavior unverified
+118,0xC9D8,00 00 00 00,Zero action; behavior unverified
+119,0xC9DC,00 00 00 00,Zero action; behavior unverified
+120,0xC9E0,00 00 00 00,Zero action; behavior unverified
+121,0xC9E4,00 00 00 00,Zero action; behavior unverified
+122,0xC9E8,00 00 00 00,Zero action; behavior unverified
+123,0xC9EC,00 00 00 00,Zero action; behavior unverified
+124,0xC9F0,00 00 00 00,Zero action; behavior unverified
+125,0xC9F4,00 00 00 00,Zero action; behavior unverified
+126,0xC9F8,00 00 00 00,Zero action; behavior unverified
+127,0xC9FC,00 00 00 00,Zero action; behavior unverified

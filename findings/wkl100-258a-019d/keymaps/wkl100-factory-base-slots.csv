@@ -1,0 +1,129 @@
+slot,address,raw,action
+0,0xC000,00 00 00 29,Escape
+1,0xC004,00 00 00 35,Backtick
+2,0xC008,00 00 00 2b,Tab
+3,0xC00C,00 00 00 39,Caps Lock
+4,0xC010,00 02 00 00,Left Shift
+5,0xC014,00 01 00 00,Left Ctrl
+6,0xC018,00 00 00 3a,F1
+7,0xC01C,00 00 00 1e,1
+8,0xC020,00 00 00 14,Q
+9,0xC024,00 00 00 04,A
+10,0xC028,00 00 00 1d,Z
+11,0xC02C,00 08 00 00,Left GUI
+12,0xC030,00 00 00 3b,F2
+13,0xC034,00 00 00 1f,2
+14,0xC038,00 00 00 1a,W
+15,0xC03C,00 00 00 16,S
+16,0xC040,00 00 00 1b,X
+17,0xC044,00 04 00 00,Left Alt
+18,0xC048,00 00 00 3c,F3
+19,0xC04C,00 00 00 20,3
+20,0xC050,00 00 00 08,E
+21,0xC054,00 00 00 07,D
+22,0xC058,00 00 00 06,C
+23,0xC05C,00 00 00 00,Zero action; behavior unverified
+24,0xC060,00 00 00 3d,F4
+25,0xC064,00 00 00 21,4
+26,0xC068,00 00 00 15,R
+27,0xC06C,00 00 00 09,F
+28,0xC070,00 00 00 19,V
+29,0xC074,00 00 00 00,Zero action; behavior unverified
+30,0xC078,00 00 00 3e,F5
+31,0xC07C,00 00 00 22,5
+32,0xC080,00 00 00 17,T
+33,0xC084,00 00 00 0a,G
+34,0xC088,00 00 00 05,B
+35,0xC08C,00 00 00 2c,Space
+36,0xC090,00 00 00 3f,F6
+37,0xC094,00 00 00 23,6
+38,0xC098,00 00 00 1c,Y
+39,0xC09C,00 00 00 0b,H
+40,0xC0A0,00 00 00 11,N
+41,0xC0A4,00 00 00 00,Zero action; behavior unverified
+42,0xC0A8,00 00 00 40,F7
+43,0xC0AC,00 00 00 24,7
+44,0xC0B0,00 00 00 18,U
+45,0xC0B4,00 00 00 0d,J
+46,0xC0B8,00 00 00 10,M
+47,0xC0BC,00 00 00 00,Zero action; behavior unverified
+48,0xC0C0,00 00 00 41,F8
+49,0xC0C4,00 00 00 25,8
+50,0xC0C8,00 00 00 0c,I
+51,0xC0CC,00 00 00 0e,K
+52,0xC0D0,00 00 00 36,Comma
+53,0xC0D4,00 40 00 00,Right Alt
+54,0xC0D8,00 00 00 42,F9
+55,0xC0DC,00 00 00 26,9
+56,0xC0E0,00 00 00 12,O
+57,0xC0E4,00 00 00 0f,L
+58,0xC0E8,00 00 00 37,Period
+59,0xC0EC,0d 00 00 00,Fn action (preserve)
+60,0xC0F0,00 00 00 43,F10
+61,0xC0F4,00 00 00 27,0
+62,0xC0F8,00 00 00 13,P
+63,0xC0FC,00 00 00 33,Semicolon
+64,0xC100,00 00 00 38,Slash
+65,0xC104,00 10 00 00,Right Ctrl
+66,0xC108,00 00 00 44,F11
+67,0xC10C,00 00 00 2d,Minus
+68,0xC110,00 00 00 2f,Left bracket
+69,0xC114,00 00 00 34,Quote
+70,0xC118,00 00 00 87,International1
+71,0xC11C,00 00 00 00,Zero action; behavior unverified
+72,0xC120,00 00 00 45,F12
+73,0xC124,00 00 00 2e,Equal
+74,0xC128,00 00 00 30,Right bracket
+75,0xC12C,00 00 00 31,Backslash
+76,0xC130,00 00 00 64,Non-US backslash
+77,0xC134,00 00 00 00,Zero action; behavior unverified
+78,0xC138,00 00 00 00,Zero action; behavior unverified
+79,0xC13C,00 00 00 2a,Backspace
+80,0xC140,00 00 00 31,Backslash
+81,0xC144,00 00 00 28,Enter
+82,0xC148,00 20 00 00,Right Shift
+83,0xC14C,00 00 00 50,Left arrow
+84,0xC150,00 00 00 00,Zero action; behavior unverified
+85,0xC154,00 00 00 00,Zero action; behavior unverified
+86,0xC158,00 00 00 00,Zero action; behavior unverified
+87,0xC15C,00 00 00 00,Zero action; behavior unverified
+88,0xC160,00 00 00 52,Up arrow
+89,0xC164,00 00 00 51,Down arrow
+90,0xC168,07 00 00 0d,Internal/extended action 07 00 00 0d (preserve)
+91,0xC16C,00 00 00 4c,Delete
+92,0xC170,00 00 00 4b,Page Up
+93,0xC174,00 00 00 4e,Page Down
+94,0xC178,00 00 00 4d,End
+95,0xC17C,00 00 00 4f,Right arrow
+96,0xC180,00 00 00 00,Zero action; behavior unverified
+97,0xC184,00 00 00 00,Zero action; behavior unverified
+98,0xC188,00 00 00 00,Zero action; behavior unverified
+99,0xC18C,00 00 00 00,Zero action; behavior unverified
+100,0xC190,00 00 00 00,Zero action; behavior unverified
+101,0xC194,00 00 00 00,Zero action; behavior unverified
+102,0xC198,00 00 00 00,Zero action; behavior unverified
+103,0xC19C,00 00 00 00,Zero action; behavior unverified
+104,0xC1A0,00 00 00 00,Zero action; behavior unverified
+105,0xC1A4,00 00 00 00,Zero action; behavior unverified
+106,0xC1A8,00 00 00 00,Zero action; behavior unverified
+107,0xC1AC,00 00 00 00,Zero action; behavior unverified
+108,0xC1B0,00 00 00 00,Zero action; behavior unverified
+109,0xC1B4,00 00 00 00,Zero action; behavior unverified
+110,0xC1B8,00 00 00 00,Zero action; behavior unverified
+111,0xC1BC,00 00 00 00,Zero action; behavior unverified
+112,0xC1C0,00 00 00 00,Zero action; behavior unverified
+113,0xC1C4,00 00 00 00,Zero action; behavior unverified
+114,0xC1C8,00 00 00 00,Zero action; behavior unverified
+115,0xC1CC,00 00 00 00,Zero action; behavior unverified
+116,0xC1D0,00 00 00 00,Zero action; behavior unverified
+117,0xC1D4,00 00 00 00,Zero action; behavior unverified
+118,0xC1D8,00 00 00 00,Zero action; behavior unverified
+119,0xC1DC,00 00 00 00,Zero action; behavior unverified
+120,0xC1E0,00 00 00 00,Zero action; behavior unverified
+121,0xC1E4,00 00 00 00,Zero action; behavior unverified
+122,0xC1E8,00 00 00 00,Zero action; behavior unverified
+123,0xC1EC,00 00 00 00,Zero action; behavior unverified
+124,0xC1F0,00 00 00 00,Zero action; behavior unverified
+125,0xC1F4,00 00 00 00,Zero action; behavior unverified
+126,0xC1F8,00 00 00 00,Zero action; behavior unverified
+127,0xC1FC,00 00 00 00,Zero action; behavior unverified

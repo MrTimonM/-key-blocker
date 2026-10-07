@@ -1,0 +1,10 @@
+{
+  "settingsChangedOver2Seconds": [],
+  "jedelClockCommand": {
+    "direction": "set only found",
+    "opcode": "0x28",
+    "size": 64,
+    "matchesConnectedFirmware": false
+  },
+  "note": "No validated clock getter or LCD framebuffer reader found; no clock-setting command sent."
+}

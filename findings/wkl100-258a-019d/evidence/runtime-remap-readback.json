@@ -1,0 +1,10 @@
+{
+  "changed_offsets": [
+    199
+  ],
+  "base_prefix_matches_intended": true,
+  "fn_prefix_unchanged": true,
+  "no_bootloader_transition": true,
+  "physical_confirmation": "Owner confirmed 8 types 9, X and C normal",
+  "final_state": "Original base map restored; base and Fn prefixes match original dump"
+}

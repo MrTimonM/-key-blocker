@@ -1,0 +1,14 @@
+{
+  "before_source": "wkl100-isp-view-20261007-202027-pass1.bin",
+  "after_source": "wkl100-isp-view-20261007-202503-pass1.bin",
+  "changes": [
+    {
+      "address": "0xBCC7",
+      "before": "25",
+      "after": "26"
+    }
+  ],
+  "changed_count": 1,
+  "fn_unchanged": true,
+  "only_expected_change": true
+}

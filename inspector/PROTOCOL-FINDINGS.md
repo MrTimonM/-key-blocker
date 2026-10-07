@@ -1,5 +1,7 @@
 # WKL-100 investigation: disable physical right bracket
 
+**Historical record:** the missing-keymap-backup conclusion below was superseded by the [2026-10-07 device recovery and validated remap](../findings/wkl100-258a-019d/README.md). The inspector itself remains unchanged; bracket disabling has not been tested.
+
 Research date: 2026-10-06. No keyboard writes were performed during this investigation.
 
 ## Evidence from the owner's descriptor export

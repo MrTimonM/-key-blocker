@@ -1,5 +1,7 @@
 # External keyboard bracket blocker
 
+**Latest research: [recovered WKL-100 keymap and validated USB remapping](findings/wkl100-258a-019d/README.md)** — base/Fn regions, RGB commands, test evidence, and the Interception reconnect failure (2026-10-07).
+
 **New: [WebHID inspector](inspector/README.md)** â€” a local read-only research tool for capturing USB report definitions and key behavior before attempting onboard remapping. Launch it with `Start-Inspector.cmd` (requires Node.js).
 
 Blocks a faulty physical `[` key on the configured external keyboard over **Bluetooth or USB**, while leaving the laptop keyboard and devices with different hardware identifiers alone.
