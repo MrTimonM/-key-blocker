@@ -1,5 +1,8 @@
 {
   ".gitattributes": "2421f8f1e2d2c404dd28e66f5512a4ae6c3f03f3f245e028e01f3e2ae65e8e1a",
+  "CUSTOM-RGB-FINDINGS.md": "bd918bd1f4c60f8ff1750651ea0f020961b694faf18433f4b3b220cfc7344bb0",
+  "PROTOCOL.md": "5f8e54f4ae8b259c3e82305575c0d4f9edfd15aceedd335d2f66182ff74c6f8f",
+  "README.md": "4983df8c406573aa34264a99f9efab3f6fc0b202edf583f7404c967263ffcccb",
   "evidence/firmware-dump-manifest.json": "71b904b9f5f2090ae270746c1a48913c714bf8aeb3d6c4e8ef06b7129f26ef3f",
   "evidence/lcd-clock-investigation.json": "468a80b2a7022d3dd17eb2ccc94824973abb99786470abac89d483bf1a85b8b2",
   "evidence/own-map-remap-apply.json": "12316259bd12c9e78be9322aa1c0aa84f0c1af7d1e3b901246bd707ac9d8529a",
@@ -36,8 +39,6 @@
   "keymaps/wkl100-layer3-alternate-512.bin": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
   "keymaps/wkl100-layer3-alternate-slots.csv": "b8b43bc9117dfd4c563d3d24c2c37f8ccfeb8fb4b0d3700c5c09b5feb2690b65",
   "keymaps/wkl100-layer3-slots.csv": "f6803e8686e1d55dc7dcc25de07ae86f14c1c20e32bca11ac503571f083de7cf",
-  "PROTOCOL.md": "5f8e54f4ae8b259c3e82305575c0d4f9edfd15aceedd335d2f66182ff74c6f8f",
-  "README.md": "4983df8c406573aa34264a99f9efab3f6fc0b202edf583f7404c967263ffcccb",
   "tools/read_runtime_keymap.py": "0d4e080b2b989162cdfaa13ecfcf210dbcd76e3510ff3ddea9fc4438e1e652d2",
   "tools/requirements.txt": "4297cf14b980728800ebb43c5802a0591856446cc73f6eb3464f4b2a1fd05ceb"
 }
