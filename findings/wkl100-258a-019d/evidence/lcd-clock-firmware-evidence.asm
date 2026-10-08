@@ -129,7 +129,7 @@
 7CA8  e4        CLR    A
 7CA9  90 0f b2  MOV    DPTR,#0x0FB2
 7CAC  f0        MOVX   @DPTR,A
-7CAD  22        RET    
+7CAD  22        RET
 
 05FA  90 0f 1c  MOV    DPTR,#0x0F1C
 05FD  a3        INC    DPTR
@@ -231,7 +231,7 @@ BAE4  ce        XCH    A,R6
 BAE5  12 d2 88  LCALL  0xD288
 BAE8  53 b9 bf  ANL    0xB9,#0xBF
 BAEB  43 b5 40  ORL    0xB5,#0x40
-BAEE  22        RET    
+BAEE  22        RET
 
 D288  a3        INC    DPTR
 D289  f0        MOVX   @DPTR,A
@@ -258,7 +258,7 @@ D2AB  a9 f0     MOV    R1,0xF0
 D2AD  fa        MOV    R2,A
 D2AE  12 27 c7  LCALL  0x27C7
 D2B1  f5 aa     MOV    0xAA,A
-D2B3  22        RET    
+D2B3  22        RET
 
 9825  90 0e f5  MOV    DPTR,#0x0EF5
 9828  e5 aa     MOV    A,0xAA
@@ -349,7 +349,7 @@ D2B3  22        RET
 98BD  f0        MOVX   @DPTR,A
 98BE  90 0f 73  MOV    DPTR,#0x0F73
 98C1  f0        MOVX   @DPTR,A
-98C2  22        RET    
+98C2  22        RET
 
 6BC3  ed        MOV    A,R5
 6BC4  24 7d     ADD    A,#0x7D
@@ -459,4 +459,4 @@ D2B3  22        RET
 6C7F  90 11 50  MOV    DPTR,#0x1150
 6C82  74 01     MOV    A,#0x01
 6C84  f0        MOVX   @DPTR,A
-6C85  22        RET    
+6C85  22        RET

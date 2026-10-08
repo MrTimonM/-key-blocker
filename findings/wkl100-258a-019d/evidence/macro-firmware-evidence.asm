@@ -20,7 +20,7 @@
 415A  90 0b a8  MOV    DPTR,#0x0BA8
 415D  70 02     JNZ    0x4161
 415F  f0        MOVX   @DPTR,A
-4160  22        RET    
+4160  22        RET
 4161  74 01     MOV    A,#0x01
 4163  f0        MOVX   @DPTR,A
 4164  90 0b ac  MOV    DPTR,#0x0BAC
@@ -146,7 +146,7 @@
 421D  f0        MOVX   @DPTR,A
 421E  a3        INC    DPTR
 421F  f0        MOVX   @DPTR,A
-4220  22        RET    
+4220  22        RET
 4221  90 0b af  MOV    DPTR,#0x0BAF
 4224  e0        MOVX   A,@DPTR
 4225  fe        MOV    R6,A
@@ -299,7 +299,7 @@
 431C  78 78     MOV    R0,#0x78
 431E  f6        MOV    @R0,A
 431F  d2 0c     SETB   0x0C
-4321  22        RET    
+4321  22        RET
 4322  90 0b b5  MOV    DPTR,#0x0BB5
 4325  e0        MOVX   A,@DPTR
 4326  30 e7 03  JNB    0xE7,0x432C
@@ -310,7 +310,7 @@
 4330  78 79     MOV    R0,#0x79
 4332  f6        MOV    @R0,A
 4333  d2 0c     SETB   0x0C
-4335  22        RET    
+4335  22        RET
 4336  90 0b b5  MOV    DPTR,#0x0BB5
 4339  e0        MOVX   A,@DPTR
 433A  30 e7 03  JNB    0xE7,0x4340
@@ -321,7 +321,7 @@
 4344  78 7b     MOV    R0,#0x7B
 4346  f6        MOV    @R0,A
 4347  d2 0c     SETB   0x0C
-4349  22        RET    
+4349  22        RET
 434A  90 0b b5  MOV    DPTR,#0x0BB5
 434D  e0        MOVX   A,@DPTR
 434E  30 e7 03  JNB    0xE7,0x4354
@@ -332,7 +332,7 @@
 4358  78 7d     MOV    R0,#0x7D
 435A  f6        MOV    @R0,A
 435B  d2 0c     SETB   0x0C
-435D  22        RET    
+435D  22        RET
 
 9108  90 0e ed  MOV    DPTR,#0x0EED
 910B  ee        MOV    A,R6
@@ -444,7 +444,7 @@
 91B6  e4        CLR    A
 91B7  90 0f 5a  MOV    DPTR,#0x0F5A
 91BA  f0        MOVX   @DPTR,A
-91BB  22        RET    
+91BB  22        RET
 
 6C52  90 09 00  MOV    DPTR,#0x0900
 6C55  e0        MOVX   A,@DPTR
@@ -477,7 +477,7 @@
 6C7F  90 11 50  MOV    DPTR,#0x1150
 6C82  74 01     MOV    A,#0x01
 6C84  f0        MOVX   @DPTR,A
-6C85  22        RET    
+6C85  22        RET
 
 D2E0  90 0b b6  MOV    DPTR,#0x0BB6
 D2E3  74 01     MOV    A,#0x01
@@ -505,4 +505,4 @@ D305  a3        INC    DPTR
 D306  e0        MOVX   A,@DPTR
 D307  ff        MOV    R7,A
 D308  12 41 39  LCALL  0x4139
-D30B  22        RET    
+D30B  22        RET

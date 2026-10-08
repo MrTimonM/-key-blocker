@@ -149,7 +149,7 @@
 0046683f mov      eax, ebx
 00466841 pop      ebx
 00466842 add      esp, 0x48
-00466845 ret      
+00466845 ret
 00466850 sub      esp, 0x10
 00466853 push     esi
 00466854 lea      eax, [esp + 4]
@@ -172,7 +172,7 @@
 0046688d xor      eax, eax
 0046688f pop      esi
 00466890 add      esp, 0x10
-00466893 ret      
+00466893 ret
 00466894 mov      eax, dword ptr [esp + 4]
 00466898 mov      ecx, dword ptr [eax]
 0046689a lea      edx, [esp + 0xc]

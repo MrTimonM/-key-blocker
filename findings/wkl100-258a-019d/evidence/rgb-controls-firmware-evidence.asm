@@ -217,7 +217,7 @@
 6414  93        MOVC   A,@A+DPTR
 6415  90 0c c7  MOV    DPTR,#0x0CC7
 6418  f0        MOVX   @DPTR,A
-6419  22        RET    
+6419  22        RET
 
 8942  90 0f 58  MOV    DPTR,#0x0F58
 8945  e0        MOVX   A,@DPTR
@@ -298,7 +298,7 @@
 8A06  80 03     SJMP   0x8A0B
 8A08  12 8b 9b  LCALL  0x8B9B
 8A0B  c2 56     CLR    0x56
-8A0D  22        RET    
+8A0D  22        RET
 
 5C96  90 0e e0  MOV    DPTR,#0x0EE0
 5C99  ef        MOV    A,R7
