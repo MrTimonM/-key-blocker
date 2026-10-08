@@ -1,0 +1,125 @@
+{
+  "source": "own WKL-100 firmware; dispatcher 0x8942",
+  "effects": [
+    {
+      "id": 0,
+      "renderer": "0xd93c",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 1,
+      "renderer": "0xd93c",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 2,
+      "renderer": "0xd38b",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 3,
+      "renderer": "0xee62",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 4,
+      "renderer": "0xeeb7",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 5,
+      "renderer": "0xedca",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 6,
+      "renderer": "0xb169",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 7,
+      "renderer": "0xeebd",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 8,
+      "renderer": "0xeec3",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 9,
+      "renderer": "0xb970",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 10,
+      "renderer": "0xec97",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 11,
+      "renderer": "0xee6d",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 12,
+      "renderer": "0xeec9",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 13,
+      "renderer": "0xdb32",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 14,
+      "renderer": "0xeddb",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 15,
+      "renderer": "0x90b2",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 16,
+      "renderer": "0xee78",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 17,
+      "renderer": "0xee83",
+      "name": null,
+      "physical_name_verified": false
+    },
+    {
+      "id": 18,
+      "renderer": null,
+      "name": "Off (no render call)",
+      "physical_name_verified": false
+    },
+    {
+      "id": 19,
+      "renderer": "0x8b9b",
+      "name": "Custom",
+      "physical_name_verified": true
+    }
+  ]
+}

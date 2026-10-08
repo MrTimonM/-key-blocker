@@ -1,0 +1,14 @@
+{
+  "operation": "apply",
+  "physical_observation": {
+    "owner_reply": "89 yes, it does",
+    "normal_8_and_fn9_confirmed": true
+  },
+  "changed_fn_offsets": [
+    199
+  ],
+  "fn_and_reset_preserved": true,
+  "base_unchanged": true,
+  "settings_unchanged": true,
+  "full_fn_readback_matches": true
+}

@@ -1,0 +1,23 @@
+{
+  "operation": "apply",
+  "physical_observation": {
+    "owner_reply": "yeah, it did , 121212",
+    "macro_output_confirmed": true,
+    "repeat_semantics": "Pending clarification: number of physical presses versus repeated output."
+  },
+  "slot": 49,
+  "trigger_action": "03 01 01 00",
+  "directory_entry": "00 02 11 00",
+  "events_hex": "00 00 32 1e 80 00 32 1e 00 00 32 1f 80 00 32 1f",
+  "base_changed_offsets": [
+    196,
+    197,
+    198,
+    199
+  ],
+  "expected_output": "12 once",
+  "fn_layer_written": false,
+  "settings_unchanged": true,
+  "custom_table_unchanged": true,
+  "all_written_regions_readback_match": true
+}

@@ -1,0 +1,8 @@
+{
+  "operation": "restore",
+  "physical_observation": {
+    "owner_reply": "888 now all ok",
+    "normal_8_confirmed": true
+  },
+  "original_base_and_pages_restored": true
+}

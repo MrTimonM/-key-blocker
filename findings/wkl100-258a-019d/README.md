@@ -154,3 +154,12 @@ beside the script. It does not provide full-layer backup or a write button.
 
 Related keyboards and published tools are references, not proof of identical
 firmware or permission to flash their images onto this board.
+
+## Additional wired-mode tests, 2026-10-08
+
+- [RGB brightness, speed, and preset colors](RGB-CONTROLS-FINDINGS.md): brightness and red/green/multicolor physically confirmed; speed qualitatively confirmed. Custom settings restored.
+- [LCD clock synchronization](LCD-CLOCK-FINDINGS.md): the owner's display changed from 19:12 to host time 15:51. A live clock getter remains unresolved.
+- [Macro playback and storage](MACRO-FINDINGS.md): 4096-byte backup verified twice; mode-1 two-character playback confirmed; original pages and base map restored. Exact one-press repeat semantics still need clarification.
+- [Fn-layer editing](FN-LAYER-FINDINGS.md): normal 8 stayed 8 while Fn + 8 became 9. Original Fn region restored.
+
+All these tests used the runtime FF02:02 collection without ISP entry or USB reconnect. No claim of a completely decoded driver is made: effect names, remaining flags, advanced macros, LCD images, alternate banks and wireless behavior still need work.
