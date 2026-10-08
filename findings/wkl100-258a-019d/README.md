@@ -163,3 +163,7 @@ firmware or permission to flash their images onto this board.
 - [Fn-layer editing](FN-LAYER-FINDINGS.md): normal 8 stayed 8 while Fn + 8 became 9. Original Fn region restored.
 
 All these tests used the runtime FF02:02 collection without ISP entry or USB reconnect. No claim of a completely decoded driver is made: effect names, remaining flags, advanced macros, LCD images, alternate banks and wireless behavior still need work.
+
+## LCD image investigation, 2026-10-08
+
+[LCD image transport and failed red-frame test](LCD-IMAGE-FINDINGS.md): 64 image packets were acknowledged, but the default GIF did not change. Fresh full readbacks confirm settings, base keymap and Custom RGB unchanged; typing and knob remain normal. The matching OEM backend lacks an image uploader, so the other backend's RGB565 format remains incompatible or incomplete for this variant. No working custom-image feature or live clock getter is claimed.

@@ -1,0 +1,295 @@
+{
+  "time": "2026-10-08T16:21:03.811101+06:00",
+  "candidate_dimensions": [
+    128,
+    128
+  ],
+  "dimensions_verified": false,
+  "frame": 0,
+  "format": "row-major RGB565 big-endian",
+  "color": "#FF0000",
+  "blocks": [
+    {
+      "block": 1,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    },
+    {
+      "block": 2,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    },
+    {
+      "block": 3,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    },
+    {
+      "block": 4,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    },
+    {
+      "block": 5,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    },
+    {
+      "block": 6,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    },
+    {
+      "block": 7,
+      "inputs": [
+        {
+          "after_chunk": 0,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 1,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 2,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 3,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 4,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 5,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 6,
+          "hex": "09 0a 06 01 08 00 00 00"
+        },
+        {
+          "after_chunk": 7,
+          "hex": "09 0a 06 01 08 00 00 00"
+        }
+      ],
+      "success_ack": true
+    }
+  ],
+  "physical_observation": "Owner confirms old default GIF remains, typing and knob completely normal",
+  "before_sha256": {
+    "settings": "d6244267c6c616db4d75dd7d46357627dae1a9c4581e1367a0748ed5faa43a97",
+    "base": "d483f0f3df8c978c12e84009c5b8d51522c134661a12e4b29a82d03ec94a24ff",
+    "custom": "f80f1a7d23529dcb2eed69ebdae42720a38a0bea8823b8a6d093c5f0aa960011"
+  },
+  "stale_inputs": [
+    "09 0a 06 00 09 00 00 00",
+    "09 0a 06 00 09 00 00 00",
+    "09 0a 06 00 09 00 00 00",
+    "09 0a 06 00 09 00 00 00",
+    "09 0a 06 00 09 00 00 00",
+    "09 0a 06 00 09 00 00 00"
+  ],
+  "error": "Short feature write: -1",
+  "subsequent_verification": "lcd-image-post-verification.json: fresh handle confirms all pre-upload hashes unchanged"
+}
