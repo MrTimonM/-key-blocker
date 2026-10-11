@@ -1,0 +1,6 @@
+{
+  "request": "physical left bracket [ -> do nothing",
+  "physical_observation": "pending",
+  "fn_layer_written": false,
+  "error": "Short feature write: -1"
+}

@@ -27,8 +27,8 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     "README.md": {
-      "bytes": 3797,
-      "sha256": "d67334c8a5cca8370428a7cb6246911bb63f5a33b2f5b6fd7ea0b0b2f757a488"
+      "bytes": 4273,
+      "sha256": "178f86489e6cec59bd584732907313d83408d74b71d6668dfdcf754505ead9d4"
     },
     "Restore-Vendor-Archives.ps1": {
       "bytes": 1888,
@@ -57,6 +57,10 @@
     "investigation/LCD-IMAGE-FINDINGS.md": {
       "bytes": 5897,
       "sha256": "21a6e60978c8295cf8beb21824e6c8be045cd9c9bcfb50a6ade401a21d0cbf73"
+    },
+    "investigation/LEFT-BRACKET-DISABLE.md": {
+      "bytes": 1832,
+      "sha256": "fdc80591c91388e7f1c1a0e5acc579231af8598a50890d936a88e9dbb5add633"
     },
     "investigation/MACRO-FINDINGS.md": {
       "bytes": 4423,
@@ -111,8 +115,8 @@
       "sha256": "0c0d1b0590d1d54ff55975912af64572b4b0e3718bb7514b7c053c45cfd91234"
     },
     "investigation/control-history.jsonl": {
-      "bytes": 880860,
-      "sha256": "fd7be75a88e0b3054718f63229fb4309cfe253836ce41d905efaf6024a281a1e"
+      "bytes": 994369,
+      "sha256": "03d5189de1005f6b7058028055ee0a2570b9a89e4d7c835431a72f843b51a3e1"
     },
     "investigation/custom-eight-keys-apply.json": {
       "bytes": 795,
@@ -173,6 +177,46 @@
     "investigation/device-caps.json": {
       "bytes": 11137,
       "sha256": "3d1251e00379431e75ceca3cc7c581add077e79ad2ab4c680eb60957619c0f6d"
+    },
+    "investigation/disable-left-bracket-20261011-164940.json": {
+      "bytes": 167,
+      "sha256": "d5cb60d4e665587172a77acefafa01f5ee1b97f1f0cbb51e1c08238206905b6b"
+    },
+    "investigation/disable-left-bracket-20261011-164958.json": {
+      "bytes": 167,
+      "sha256": "d5cb60d4e665587172a77acefafa01f5ee1b97f1f0cbb51e1c08238206905b6b"
+    },
+    "investigation/disable-left-bracket-20261011-165131-base-after.bin": {
+      "bytes": 512,
+      "sha256": "f46c8e0627332c9017bb681f6c56b4728e19bbfd8dc4404ed346ff8c82ad5f5b"
+    },
+    "investigation/disable-left-bracket-20261011-165131-base-before.bin": {
+      "bytes": 512,
+      "sha256": "d483f0f3df8c978c12e84009c5b8d51522c134661a12e4b29a82d03ec94a24ff"
+    },
+    "investigation/disable-left-bracket-20261011-165131-base-desired.bin": {
+      "bytes": 512,
+      "sha256": "f46c8e0627332c9017bb681f6c56b4728e19bbfd8dc4404ed346ff8c82ad5f5b"
+    },
+    "investigation/disable-left-bracket-20261011-165131-custom-before.bin": {
+      "bytes": 512,
+      "sha256": "f80f1a7d23529dcb2eed69ebdae42720a38a0bea8823b8a6d093c5f0aa960011"
+    },
+    "investigation/disable-left-bracket-20261011-165131-fn-before.bin": {
+      "bytes": 512,
+      "sha256": "3e2b0121f1f6b2e78cfb4b2b9a498189f8d8b1dfc9f7b15d1a8d5ad212751f23"
+    },
+    "investigation/disable-left-bracket-20261011-165131-settings-before.bin": {
+      "bytes": 128,
+      "sha256": "d70d703f220854ffa38854453c39764458d9ef705294d57a4b7f667350d660eb"
+    },
+    "investigation/disable-left-bracket-20261011-165131.json": {
+      "bytes": 633,
+      "sha256": "3a7d45e009d31dc451dd772e2ec343f2ffa03c9584aed10d4083bc727273be16"
+    },
+    "investigation/disable_left_bracket.py": {
+      "bytes": 3495,
+      "sha256": "02eb3a42113305b5d5ad3a2a70acc66b3a15cdc14300efd0410522f7b7dfa130"
     },
     "investigation/disassemble_8051.py": {
       "bytes": 2198,
@@ -501,6 +545,10 @@
     "investigation/restore-reference-base-report.bin": {
       "bytes": 520,
       "sha256": "6e3b1c06148a2f9c4795178b4a0e5ec2fa7874929803fc9ec254dbb0c48ba053"
+    },
+    "investigation/restore_left_bracket.py": {
+      "bytes": 2102,
+      "sha256": "67f02bb807e3b9e62499957414074d994f4e450935604352a48a8b7418c16d91"
     },
     "investigation/rgb-before-query.json": {
       "bytes": 2278,
@@ -867,6 +915,15 @@
       "sha256": "032600c0615bcfba93491e2b901cf94c9592d731f5b3404e05a86ea02fb7ab15"
     }
   },
+  "final_keyboard_change": {
+    "action": "00 00 00 00",
+    "base_slot": 68,
+    "changed_base_offset": 275,
+    "key": "left bracket [",
+    "physical_observation": "Owner: i guess now ok (qualitative confirmation; individual keys not explicitly reported)",
+    "readback_verified": true,
+    "undo_script": "investigation/restore_left_bracket.py"
+  },
   "restore_test": {
     "all_original_source_hashes_match": true,
     "archive_integrity_verified": true,
@@ -897,6 +954,10 @@
       "LCD-IMAGE-FINDINGS.md": {
         "bytes": 5897,
         "sha256": "21a6e60978c8295cf8beb21824e6c8be045cd9c9bcfb50a6ade401a21d0cbf73"
+      },
+      "LEFT-BRACKET-DISABLE.md": {
+        "bytes": 1832,
+        "sha256": "fdc80591c91388e7f1c1a0e5acc579231af8598a50890d936a88e9dbb5add633"
       },
       "MACRO-FINDINGS.md": {
         "bytes": 4423,
@@ -951,8 +1012,8 @@
         "sha256": "0c0d1b0590d1d54ff55975912af64572b4b0e3718bb7514b7c053c45cfd91234"
       },
       "control-history.jsonl": {
-        "bytes": 880860,
-        "sha256": "fd7be75a88e0b3054718f63229fb4309cfe253836ce41d905efaf6024a281a1e"
+        "bytes": 994369,
+        "sha256": "03d5189de1005f6b7058028055ee0a2570b9a89e4d7c835431a72f843b51a3e1"
       },
       "custom-eight-keys-apply.json": {
         "bytes": 795,
@@ -1013,6 +1074,46 @@
       "device-caps.json": {
         "bytes": 11137,
         "sha256": "3d1251e00379431e75ceca3cc7c581add077e79ad2ab4c680eb60957619c0f6d"
+      },
+      "disable-left-bracket-20261011-164940.json": {
+        "bytes": 167,
+        "sha256": "d5cb60d4e665587172a77acefafa01f5ee1b97f1f0cbb51e1c08238206905b6b"
+      },
+      "disable-left-bracket-20261011-164958.json": {
+        "bytes": 167,
+        "sha256": "d5cb60d4e665587172a77acefafa01f5ee1b97f1f0cbb51e1c08238206905b6b"
+      },
+      "disable-left-bracket-20261011-165131-base-after.bin": {
+        "bytes": 512,
+        "sha256": "f46c8e0627332c9017bb681f6c56b4728e19bbfd8dc4404ed346ff8c82ad5f5b"
+      },
+      "disable-left-bracket-20261011-165131-base-before.bin": {
+        "bytes": 512,
+        "sha256": "d483f0f3df8c978c12e84009c5b8d51522c134661a12e4b29a82d03ec94a24ff"
+      },
+      "disable-left-bracket-20261011-165131-base-desired.bin": {
+        "bytes": 512,
+        "sha256": "f46c8e0627332c9017bb681f6c56b4728e19bbfd8dc4404ed346ff8c82ad5f5b"
+      },
+      "disable-left-bracket-20261011-165131-custom-before.bin": {
+        "bytes": 512,
+        "sha256": "f80f1a7d23529dcb2eed69ebdae42720a38a0bea8823b8a6d093c5f0aa960011"
+      },
+      "disable-left-bracket-20261011-165131-fn-before.bin": {
+        "bytes": 512,
+        "sha256": "3e2b0121f1f6b2e78cfb4b2b9a498189f8d8b1dfc9f7b15d1a8d5ad212751f23"
+      },
+      "disable-left-bracket-20261011-165131-settings-before.bin": {
+        "bytes": 128,
+        "sha256": "d70d703f220854ffa38854453c39764458d9ef705294d57a4b7f667350d660eb"
+      },
+      "disable-left-bracket-20261011-165131.json": {
+        "bytes": 633,
+        "sha256": "3a7d45e009d31dc451dd772e2ec343f2ffa03c9584aed10d4083bc727273be16"
+      },
+      "disable_left_bracket.py": {
+        "bytes": 3495,
+        "sha256": "02eb3a42113305b5d5ad3a2a70acc66b3a15cdc14300efd0410522f7b7dfa130"
       },
       "disassemble_8051.py": {
         "bytes": 2198,
@@ -1341,6 +1442,10 @@
       "restore-reference-base-report.bin": {
         "bytes": 520,
         "sha256": "6e3b1c06148a2f9c4795178b4a0e5ec2fa7874929803fc9ec254dbb0c48ba053"
+      },
+      "restore_left_bracket.py": {
+        "bytes": 2102,
+        "sha256": "67f02bb807e3b9e62499957414074d994f4e450935604352a48a8b7418c16d91"
       },
       "rgb-before-query.json": {
         "bytes": 2278,

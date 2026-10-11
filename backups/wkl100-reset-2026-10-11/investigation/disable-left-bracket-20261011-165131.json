@@ -1,0 +1,18 @@
+{
+  "request": "physical left bracket [ -> do nothing",
+  "physical_observation": "Owner: i guess now ok (qualitative confirmation; individual keys not explicitly reported)",
+  "fn_layer_written": false,
+  "slot": 68,
+  "hid_usage": "0x2F",
+  "before_action": "00 00 00 2f",
+  "after_action": "00 00 00 00",
+  "changed_offsets": [
+    275
+  ],
+  "before_sha256": "d483f0f3df8c978c12e84009c5b8d51522c134661a12e4b29a82d03ec94a24ff",
+  "backup_prefix": "disable-left-bracket-20261011-165131",
+  "full_base_readback_matches": true,
+  "fn_unchanged": true,
+  "settings_unchanged": true,
+  "custom_rgb_unchanged": true
+}
