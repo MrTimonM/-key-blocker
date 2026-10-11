@@ -1,0 +1,412 @@
+{
+  "sha": "28d0b25c9d562ddf5f5b5466d45dc3ad9e9b7808",
+  "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/28d0b25c9d562ddf5f5b5466d45dc3ad9e9b7808",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45dc52ece5772a26144266413e4269c1c55be60f",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/45dc52ece5772a26144266413e4269c1c55be60f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4235d0cf22d830ad8c45081a829a80656d2a9e17",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/4235d0cf22d830ad8c45081a829a80656d2a9e17"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5533888618b723842fd4a2b738ca680c15c2ab1",
+      "size": 404,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/f5533888618b723842fd4a2b738ca680c15c2ab1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/device-report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ef7744f75fa722283f61719c57391f0ae7dd52c",
+      "size": 1911,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/0ef7744f75fa722283f61719c57391f0ae7dd52c"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dea2452a6c3253644a5d66a2b38dde5daa9a79fa",
+      "size": 416,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/dea2452a6c3253644a5d66a2b38dde5daa9a79fa"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43043cc6ce55901d1d981fd6fcb03ea5e57fa332",
+      "size": 3084,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/43043cc6ce55901d1d981fd6fcb03ea5e57fa332"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ee65c5965d195851674f47ecad0cbdb0062ac2",
+      "size": 1068,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/22ee65c5965d195851674f47ecad0cbdb0062ac2"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52cf60b49f8597c0afc3bc39be8ef97b87df7f1c",
+      "size": 2528,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/52cf60b49f8597c0afc3bc39be8ef97b87df7f1c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe17efc04f678102b2ba81a7979180ea0ad2b62",
+      "size": 7663,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/dfe17efc04f678102b2ba81a7979180ea0ad2b62"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65a417e6a536e9dc509d5ced5432bd174b265b3f",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/65a417e6a536e9dc509d5ced5432bd174b265b3f"
+    },
+    {
+      "path": "docs/GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04fe9e2ed3cbbd56ecbd9cc631af0ce521d17d03",
+      "size": 17340,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/04fe9e2ed3cbbd56ecbd9cc631af0ce521d17d03"
+    },
+    {
+      "path": "docs/L65-protocol.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d8034894470a5f7b9f29808056124caf0d8548f",
+      "size": 6545,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/2d8034894470a5f7b9f29808056124caf0d8548f"
+    },
+    {
+      "path": "firmware",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecd7a60ad389916e105f3c9ae6b1dea2543fc012",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/ecd7a60ad389916e105f3c9ae6b1dea2543fc012"
+    },
+    {
+      "path": "firmware/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f571209a605ffcdefe6f33d4c32fb515b31886",
+      "size": 4093,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/97f571209a605ffcdefe6f33d4c32fb515b31886"
+    },
+    {
+      "path": "firmware/l65-firmware-sb-nosleep.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01dd0a23167b77c94415d5cbc573f0c52ce38f7",
+      "size": 61440,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/a01dd0a23167b77c94415d5cbc573f0c52ce38f7"
+    },
+    {
+      "path": "firmware/l65-firmware-screenbright.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca984ded1fd99bd3dade834e597656a9ed5ee614",
+      "size": 61440,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/ca984ded1fd99bd3dade834e597656a9ed5ee614"
+    },
+    {
+      "path": "firmware/patch.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2aa9596fcf713c38b1a810beb62b77db82463d68",
+      "size": 8360,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/2aa9596fcf713c38b1a810beb62b77db82463d68"
+    },
+    {
+      "path": "linux",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e542ff9b17015be90aa953a7c39a3ef10fd59418",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/e542ff9b17015be90aa953a7c39a3ef10fd59418"
+    },
+    {
+      "path": "linux/knobd.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9830084105b1d90169ca6704049b938ddeaa88ed",
+      "size": 37803,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/9830084105b1d90169ca6704049b938ddeaa88ed"
+    },
+    {
+      "path": "linux/knobprobe.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e43347eec88b0fa0ed84f18fb2eeec765acf7574",
+      "size": 11891,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/e43347eec88b0fa0ed84f18fb2eeec765acf7574"
+    },
+    {
+      "path": "linux/l65battery.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "737aa30ba9a75668a25661e451d863503ed862d8",
+      "size": 9137,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/737aa30ba9a75668a25661e451d863503ed862d8"
+    },
+    {
+      "path": "linux/l65ctl.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f654eb40c3d9ca6f7a67269f6923bb5ea9c91bf1",
+      "size": 27885,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/f654eb40c3d9ca6f7a67269f6923bb5ea9c91bf1"
+    },
+    {
+      "path": "re",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6285eb04ac200f461785d7dfce5dd77984c0c922",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/6285eb04ac200f461785d7dfce5dd77984c0c922"
+    },
+    {
+      "path": "re/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016c29f5329deae05b7b6c1ed2905fb57ab99600",
+      "size": 3963,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/016c29f5329deae05b7b6c1ed2905fb57ab99600"
+    },
+    {
+      "path": "re/exports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1859647cf6bc79a25332466f458d7966ac514f13",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/1859647cf6bc79a25332466f458d7966ac514f13"
+    },
+    {
+      "path": "re/exports/cfg_funcs.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c862fef494e8bf8d8d9aa42fda6d97f62527cdfe",
+      "size": 19788,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/c862fef494e8bf8d8d9aa42fda6d97f62527cdfe"
+    },
+    {
+      "path": "re/exports/fw_aa.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be221027ec928c07109401d232dddf295847450",
+      "size": 1666,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/1be221027ec928c07109401d232dddf295847450"
+    },
+    {
+      "path": "re/exports/fw_aa2.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8780d942eb33ebe3a2e9a9238201103b5a05aebc",
+      "size": 9908,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/8780d942eb33ebe3a2e9a9238201103b5a05aebc"
+    },
+    {
+      "path": "re/exports/fw_cmds.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "728c2a040176cf7d4eb201b4bbf481f0e818c368",
+      "size": 2075,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/728c2a040176cf7d4eb201b4bbf481f0e818c368"
+    },
+    {
+      "path": "re/exports/fw_dispatch.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e35871656a31ffa15a461823772cc5340b715b",
+      "size": 24469,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/c3e35871656a31ffa15a461823772cc5340b715b"
+    },
+    {
+      "path": "re/exports/fw_encoder.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d149724c34855bb56990bd21d09b206019174cf",
+      "size": 36136,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/6d149724c34855bb56990bd21d09b206019174cf"
+    },
+    {
+      "path": "re/exports/fw_hid.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6776923096d28086aeeb1f240be7d94a99603dc4",
+      "size": 86952,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/6776923096d28086aeeb1f240be7d94a99603dc4"
+    },
+    {
+      "path": "re/exports/fw_hid2.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "652379b14afc7f2e77a05366fa17c9a247e8d581",
+      "size": 12255,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/652379b14afc7f2e77a05366fa17c9a247e8d581"
+    },
+    {
+      "path": "re/exports/fw_hid3.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96c72ceb4c9af09c54b67b8cdc6d98af1cf18128",
+      "size": 4300,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/96c72ceb4c9af09c54b67b8cdc6d98af1cf18128"
+    },
+    {
+      "path": "re/exports/fw_knob.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3070bfb2277ddc5b7284ec89e239306f8f521d1b",
+      "size": 28458,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/3070bfb2277ddc5b7284ec89e239306f8f521d1b"
+    },
+    {
+      "path": "re/exports/fw_rf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff66fbade69b1662179cb80606dde5c087c19b25",
+      "size": 85025,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/ff66fbade69b1662179cb80606dde5c087c19b25"
+    },
+    {
+      "path": "re/exports/fw_sleep.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ddf0a88a6c2d3dfb7b35166576daec244033e8f",
+      "size": 22009,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/1ddf0a88a6c2d3dfb7b35166576daec244033e8f"
+    },
+    {
+      "path": "re/exports/hid_export.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543dfd694fe0d9fef2148f9854cc0a13b5eb57d4",
+      "size": 482816,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/543dfd694fe0d9fef2148f9854cc0a13b5eb57d4"
+    },
+    {
+      "path": "re/exports/music_export.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256d501772acd6056bf6095d64e0f4e01b8fb120",
+      "size": 967014,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/256d501772acd6056bf6095d64e0f4e01b8fb120"
+    },
+    {
+      "path": "re/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53a74111fe616cf06af9e145a902ec1da9f3916b",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/53a74111fe616cf06af9e145a902ec1da9f3916b"
+    },
+    {
+      "path": "re/scripts/CreateAndDecompile.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db425bb87cee33ef19694cde781834dcd51c8eb7",
+      "size": 2155,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/db425bb87cee33ef19694cde781834dcd51c8eb7"
+    },
+    {
+      "path": "re/scripts/DecompileAt.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670c86a693764aa79f80edd2e5e1ff490cdda7a9",
+      "size": 2218,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/670c86a693764aa79f80edd2e5e1ff490cdda7a9"
+    },
+    {
+      "path": "re/scripts/ExportHidCode.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "194391a91dfcbb1c9d924839480914db736c66e5",
+      "size": 7397,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/194391a91dfcbb1c9d924839480914db736c66e5"
+    },
+    {
+      "path": "re/scripts/ExportMusic.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27fbd33a176b4cf05646f269965db12f45bceec6",
+      "size": 7642,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/27fbd33a176b4cf05646f269965db12f45bceec6"
+    },
+    {
+      "path": "re/scripts/FwSeed.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca42b63992e0a2787ca970514442277ff4282bd",
+      "size": 2020,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/3ca42b63992e0a2787ca970514442277ff4282bd"
+    },
+    {
+      "path": "re/scripts/FwSetup.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e612ae32dba1cb9d5a2f35c5c62cec94d4ea26b",
+      "size": 1927,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/1e612ae32dba1cb9d5a2f35c5c62cec94d4ea26b"
+    },
+    {
+      "path": "systemd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "951eb633ee63ad22587f51d6b7f761fb27400b01",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/951eb633ee63ad22587f51d6b7f761fb27400b01"
+    },
+    {
+      "path": "systemd/knobd.service",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f310492efb14aedd70b56d393aa0a52155678fa7",
+      "size": 1020,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/f310492efb14aedd70b56d393aa0a52155678fa7"
+    },
+    {
+      "path": "udev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67a4220da9e7b05b56c6094e23195e82dd5a31d2",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/67a4220da9e7b05b56c6094e23195e82dd5a31d2"
+    },
+    {
+      "path": "udev/60-womier-l65.rules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c48eb7d5e51c1eb59d7f57e33f6219447f5a25",
+      "size": 1949,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/04c48eb7d5e51c1eb59d7f57e33f6219447f5a25"
+    },
+    {
+      "path": "windows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bee635447951b99c19c530609a1f575bedfcce6",
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/trees/9bee635447951b99c19c530609a1f575bedfcce6"
+    },
+    {
+      "path": "windows/l65w.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35d81c2109b4d22a7317d985fb3fd967219e7921",
+      "size": 12213,
+      "url": "https://api.github.com/repos/deepan-alve/womier-l65-linux/git/blobs/35d81c2109b4d22a7317d985fb3fd967219e7921"
+    }
+  ],
+  "truncated": false
+}

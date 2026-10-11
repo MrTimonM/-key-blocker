@@ -1,0 +1,35 @@
+{"time": "2026-10-07T13:46:28.061Z", "event": "hook", "api": "CreateFileW", "address": "0x76ed33b0"}
+{"time": "2026-10-07T13:46:28.061Z", "event": "hook", "api": "CreateFileA", "address": "0x76ed33a0"}
+{"time": "2026-10-07T13:46:28.061Z", "event": "hook", "api": "CloseHandle", "address": "0x76ed3150"}
+{"time": "2026-10-07T13:46:28.061Z", "event": "hook", "api": "HidD_SetFeature", "address": "0x6ddc2780"}
+{"time": "2026-10-07T13:46:28.062Z", "event": "hook", "api": "HidD_GetFeature", "address": "0x6ddc2490"}
+{"time": "2026-10-07T13:46:28.062Z", "event": "hook", "api": "HidD_SetOutputReport", "address": "0x6ddc2800"}
+{"time": "2026-10-07T13:46:28.062Z", "event": "hook", "api": "OutputDebugStringA", "address": "0x76ec9350"}
+{"time": "2026-10-07T13:46:28.062Z", "event": "hook", "api": "OutputDebugStringW", "address": "0x76ee64f0"}
+{"time": "2026-10-07T13:46:28.062Z", "event": "hook", "api": "HidP_GetCaps", "address": "0x6ddc15c0"}
+{"time": "2026-10-07T13:46:28.113Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_a8a5&pid_2255&mi_02&col06#8&1a2813a7&0&0005#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.113Z", "event": "caps", "usage": 16, "usagePage": 65281, "inputLength": 64, "outputLength": 64, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.114Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_258a&pid_019d&mi_01&col01#8&22df4c82&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.114Z", "event": "caps", "usage": 128, "usagePage": 1, "inputLength": 2, "outputLength": 0, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.116Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_258a&pid_019d&mi_01&col02#8&22df4c82&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.117Z", "event": "caps", "usage": 1, "usagePage": 12, "inputLength": 3, "outputLength": 0, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.119Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_258a&pid_019d&mi_01&col03#8&22df4c82&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.119Z", "event": "caps", "usage": 1, "usagePage": 65282, "inputLength": 4, "outputLength": 0, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.122Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_258a&pid_019d&mi_01&col05#8&22df4c82&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.123Z", "event": "caps", "usage": 1, "usagePage": 65280, "inputLength": 0, "outputLength": 0, "featureLength": 6}
+{"time": "2026-10-07T13:46:28.125Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_258a&pid_019d&mi_01&col06#8&22df4c82&0&0005#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.126Z", "event": "caps", "usage": 1, "usagePage": 65280, "inputLength": 0, "outputLength": 0, "featureLength": 1032}
+{"time": "2026-10-07T13:46:28.130Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_258a&pid_019d&mi_01&col07#8&22df4c82&0&0006#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.131Z", "event": "caps", "usage": 2, "usagePage": 65282, "inputLength": 8, "outputLength": 0, "featureLength": 520}
+{"time": "2026-10-07T13:46:28.134Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#pnp0c50&col03#4&726ba71&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.134Z", "event": "caps", "usage": 14, "usagePage": 13, "inputLength": 0, "outputLength": 0, "featureLength": 2}
+{"time": "2026-10-07T13:46:28.134Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#pnp0c50&col04#4&726ba71&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.134Z", "event": "caps", "usage": 1, "usagePage": 65280, "inputLength": 62, "outputLength": 21, "featureLength": 4}
+{"time": "2026-10-07T13:46:28.134Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_a8a5&pid_2255&mi_01#8&31eb9fec&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.134Z", "event": "caps", "usage": 0, "usagePage": 65283, "inputLength": 33, "outputLength": 33, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.136Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_a8a5&pid_2255&mi_02&col03#8&1a2813a7&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.136Z", "event": "caps", "usage": 1, "usagePage": 12, "inputLength": 3, "outputLength": 0, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.138Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_a8a5&pid_2255&mi_02&col04#8&1a2813a7&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.138Z", "event": "caps", "usage": 128, "usagePage": 1, "inputLength": 2, "outputLength": 0, "featureLength": 0}
+{"time": "2026-10-07T13:46:28.141Z", "event": "open", "handle": "0x3e4", "path": "\\\\?\\hid#vid_a8a5&pid_2255&mi_02&col05#8&1a2813a7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}"}
+{"time": "2026-10-07T13:46:28.141Z", "event": "caps", "usage": 0, "usagePage": 65451, "inputLength": 62, "outputLength": 62, "featureLength": 0}

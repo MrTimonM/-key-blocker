@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "timezone": "Asia/Dhaka",
   "format": "Logical ISP view, not raw physical flash",
-  "complete_images_published": false,
+  "complete_images_published": true,
   "bootloader_md5": "3e0ebd0c440af5236d7ff8872343f85d",
   "images": [
     {
@@ -30,5 +30,6 @@
       "sha256": "167611d7eaae12e85e103663b0f46cf84b37de8e927d8fc3ecfa1a9a081c5278",
       "bootloader_md5": "3e0ebd0c440af5236d7ff8872343f85d"
     }
-  ]
+  ],
+  "published_directory": "../firmware/"
 }

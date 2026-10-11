@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "kind": "keyboard",
+    "length": 90,
+    "hardware_id": "ACPI\\VEN_MSI&DEV_0007"
+  },
+  {
+    "id": 2,
+    "kind": "keyboard",
+    "length": 316,
+    "hardware_id": "HID\\VID_A8A5&PID_2255&REV_0100&MI_00"
+  },
+  {
+    "id": 3,
+    "kind": "keyboard",
+    "length": 340,
+    "hardware_id": "HID\\VID_A8A5&PID_2255&REV_0100&MI_02&Col02"
+  },
+  {
+    "id": 4,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 5,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 6,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 7,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 8,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 9,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 10,
+    "kind": "keyboard",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 11,
+    "kind": "mouse",
+    "length": 96,
+    "hardware_id": "ACPI\\VEN_MSNB&DEV_0001"
+  },
+  {
+    "id": 12,
+    "kind": "mouse",
+    "length": 308,
+    "hardware_id": "HID\\VEN_PNP&DEV_0C50&Col01"
+  },
+  {
+    "id": 13,
+    "kind": "mouse",
+    "length": 334,
+    "hardware_id": "HID\\VID_A8A5&PID_2255&REV_0100&MI_02&Col01"
+  },
+  {
+    "id": 14,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 15,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 16,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 17,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 18,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 19,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  },
+  {
+    "id": 20,
+    "kind": "mouse",
+    "length": 0,
+    "hardware_id": ""
+  }
+]

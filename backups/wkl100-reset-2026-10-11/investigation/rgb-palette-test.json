@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "index": 0,
+      "expected": "RED",
+      "readback_matches": true
+    },
+    {
+      "index": 1,
+      "expected": "GREEN",
+      "readback_matches": true
+    },
+    {
+      "index": 7,
+      "expected": "MULTICOLOR",
+      "readback_matches": true
+    },
+    {
+      "settings_restored": true
+    },
+    {
+      "custom_and_base_unchanged": true
+    }
+  ],
+  "physical_observation": {
+    "owner_reply": "all working good as expected and you said",
+    "red_green_multicolor_confirmed": true,
+    "typing_normal": true
+  }
+}

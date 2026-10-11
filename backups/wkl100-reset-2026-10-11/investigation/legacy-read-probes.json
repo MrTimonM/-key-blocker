@@ -1,0 +1,29 @@
+[
+  {
+    "name": "legacy-keymap",
+    "request_hex": "05 84 d4 00 00 00 00",
+    "requested_length": 1032,
+    "send_result": 7,
+    "length": 0,
+    "response_hex": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "legacy-settings",
+    "request_hex": "05 83 b6 00 00 00 00",
+    "requested_length": 1032,
+    "send_result": 7,
+    "length": 0,
+    "response_hex": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "isp-read-native-size",
+    "request_hex": "05 52 00 bc 00 00",
+    "requested_length": 1032,
+    "send_result": 6,
+    "length": 0,
+    "response_hex": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

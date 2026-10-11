@@ -199,3 +199,13 @@ Upstream projects retain their own licenses: [AutoHotInterception](https://githu
 - The combined script successfully matched the live USB interface in `--check` mode.
 - The packaging workflow is checked using Windows PowerShell 5.1 in a separate staging folder; driver installation and Windows reinstallation are not repeated as part of packaging.
 - Fresh-install behavior, sign-in startup, and all Bluetooth/USB reconnect cases should be verified using the steps above on the restored system.
+
+
+## Per-key RGB editor
+
+Run `node rgb-editor/server.js`, or double-click `Start-RGB-Editor.cmd`, then open **http://127.0.0.1:8766** in desktop Chrome or Edge. [Color Studio](rgb-editor/README.md) reads your WKL-100 lighting mode and custom colors, lets you choose a color for each key, and saves with backup and verified readback.
+
+
+## Complete keyboard backup before Windows reset
+
+The [11 October 2026 backup](backups/wkl100-reset-2026-10-11/README.md) includes the entire investigation, all four firmware dumps, both installed vendor applications, checksums and tested archive restoration. The RGB web editor is included above. Download or clone the whole repository before restoring; individual archive parts must stay together.

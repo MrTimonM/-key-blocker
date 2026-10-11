@@ -1,0 +1,226 @@
+[
+  {
+    "slot": 10,
+    "own": "00 00 00 1d",
+    "borrowed": "00 00 00 64",
+    "own_action": "Z",
+    "borrowed_action": "Non-US backslash"
+  },
+  {
+    "slot": 16,
+    "own": "00 00 00 1b",
+    "borrowed": "00 00 00 1d",
+    "own_action": "X",
+    "borrowed_action": "Z"
+  },
+  {
+    "slot": 22,
+    "own": "00 00 00 06",
+    "borrowed": "00 00 00 1b",
+    "own_action": "C",
+    "borrowed_action": "X"
+  },
+  {
+    "slot": 28,
+    "own": "00 00 00 19",
+    "borrowed": "00 00 00 06",
+    "own_action": "V",
+    "borrowed_action": "C"
+  },
+  {
+    "slot": 34,
+    "own": "00 00 00 05",
+    "borrowed": "00 00 00 19",
+    "own_action": "B",
+    "borrowed_action": "V"
+  },
+  {
+    "slot": 40,
+    "own": "00 00 00 11",
+    "borrowed": "00 00 00 05",
+    "own_action": "N",
+    "borrowed_action": "B"
+  },
+  {
+    "slot": 46,
+    "own": "00 00 00 10",
+    "borrowed": "00 00 00 11",
+    "own_action": "M",
+    "borrowed_action": "N"
+  },
+  {
+    "slot": 52,
+    "own": "00 00 00 36",
+    "borrowed": "00 00 00 10",
+    "own_action": "Comma",
+    "borrowed_action": "M"
+  },
+  {
+    "slot": 58,
+    "own": "00 00 00 37",
+    "borrowed": "00 00 00 36",
+    "own_action": "Period",
+    "borrowed_action": "Comma"
+  },
+  {
+    "slot": 64,
+    "own": "00 00 00 38",
+    "borrowed": "00 00 00 37",
+    "own_action": "Slash",
+    "borrowed_action": "Period"
+  },
+  {
+    "slot": 76,
+    "own": "00 00 00 64",
+    "borrowed": "00 00 00 00",
+    "own_action": "Non-US backslash",
+    "borrowed_action": "Zero action; behavior unverified"
+  },
+  {
+    "slot": 78,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 4c",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "Delete"
+  },
+  {
+    "slot": 90,
+    "own": "07 00 00 0d",
+    "borrowed": "00 00 00 49",
+    "own_action": "Internal/extended action 07 00 00 0d (preserve)",
+    "borrowed_action": "Insert"
+  },
+  {
+    "slot": 91,
+    "own": "00 00 00 4c",
+    "borrowed": "00 00 00 53",
+    "own_action": "Delete",
+    "borrowed_action": "HID usage 0x53"
+  },
+  {
+    "slot": 92,
+    "own": "00 00 00 4b",
+    "borrowed": "00 00 00 5f",
+    "own_action": "Page Up",
+    "borrowed_action": "HID usage 0x5F"
+  },
+  {
+    "slot": 93,
+    "own": "00 00 00 4e",
+    "borrowed": "00 00 00 5c",
+    "own_action": "Page Down",
+    "borrowed_action": "HID usage 0x5C"
+  },
+  {
+    "slot": 94,
+    "own": "00 00 00 4d",
+    "borrowed": "00 00 00 59",
+    "own_action": "End",
+    "borrowed_action": "HID usage 0x59"
+  },
+  {
+    "slot": 96,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 4d",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "End"
+  },
+  {
+    "slot": 97,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 54",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x54"
+  },
+  {
+    "slot": 98,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 60",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x60"
+  },
+  {
+    "slot": 99,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 5d",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x5D"
+  },
+  {
+    "slot": 100,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 5a",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x5A"
+  },
+  {
+    "slot": 101,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 62",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x62"
+  },
+  {
+    "slot": 103,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 55",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x55"
+  },
+  {
+    "slot": 104,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 61",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x61"
+  },
+  {
+    "slot": 105,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 5e",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x5E"
+  },
+  {
+    "slot": 106,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 5b",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x5B"
+  },
+  {
+    "slot": 107,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 63",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x63"
+  },
+  {
+    "slot": 108,
+    "own": "00 00 00 00",
+    "borrowed": "07 00 00 28",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "Internal/extended action 07 00 00 28 (preserve)"
+  },
+  {
+    "slot": 109,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 56",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x56"
+  },
+  {
+    "slot": 110,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 57",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x57"
+  },
+  {
+    "slot": 112,
+    "own": "00 00 00 00",
+    "borrowed": "00 00 00 58",
+    "own_action": "Zero action; behavior unverified",
+    "borrowed_action": "HID usage 0x58"
+  }
+]

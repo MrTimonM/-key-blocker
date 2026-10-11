@@ -1,0 +1,11 @@
+{
+  "symptom": "No Windows key input after repeated ISP/USB reconnects; knob and Fn reset still work",
+  "windows_keyboard_nodes": "Present and OK",
+  "interception_keyboard_upper_filter_installed": true,
+  "wkl_missing_from_interception_device_table": true,
+  "upstream_known_issue": "Reconnect IDs exceeding 10 prevent keyboard input until Windows restart",
+  "windows_restart_restored_typing": true,
+  "subsequent_no_reconnect_remap_physically_validated": true,
+  "final_base_prefix_matches_original": true,
+  "final_fn_prefix_matches_original": true
+}

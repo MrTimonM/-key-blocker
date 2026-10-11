@@ -96,7 +96,7 @@ The other 127 bytes were preserved, then the original effect was restored.
 
 **LCD:** no validated clock getter or framebuffer reader was found. Clock-setting
 code in the vendor applications is not evidence that the displayed time can be
-read. No clock-setting command was tested on this keyboard.
+read. Clock setting was later physically verified; see [LCD clock findings](LCD-CLOCK-FINDINGS.md).
 
 Evidence:
 
@@ -108,9 +108,10 @@ Evidence:
 - [RGB effect comparison](evidence/rgb-effect3-diff.json)
 - [Typing recovery](evidence/typing-recovery.json)
 
-Full firmware dumps and the vendor executables remain in the owner's local
-archive. This folder publishes their hashes, extracted keymap regions, and
-analysis evidence, rather than distributing a firmware image for flashing.
+The complete main-controller dumps are now published in [firmware/](firmware/).
+The [pre-reset backup](../../backups/wkl100-reset-2026-10-11/README.md) also contains
+the complete investigation workspace and both installed vendor applications.
+The firmware files are logical ISP-view backups, not validated flash-ready images.
 
 ## Interception reconnect failure
 

@@ -1,0 +1,11 @@
+{
+  "mode": 19,
+  "field": "brightness low 7 bits",
+  "offset": 94,
+  "before": 20,
+  "after": 4,
+  "settings_readback_matches": true,
+  "custom_colors_unchanged": true,
+  "base_map_unchanged": true,
+  "physical_observation": "Owner confirmed dimmer; typing normal"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "api": "SET_FEATURE flash-read-address",
+    "hex": "05 52 00 bc 00 00",
+    "result": 6
+  },
+  {
+    "api": "GET_FEATURE flash-read",
+    "length": 0,
+    "hex": ""
+  }
+]

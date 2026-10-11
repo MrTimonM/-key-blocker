@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\Mahedi\\Documents\\K81-USB-Debug\\wkl100-isp-view-20261007-202027-pass1.bin",
+  "source_sha256": "f9a7e1b1abf47c1a9b8b545eae1a0467c5f8086f05d28fb6bf1ee096eac37a64",
+  "region_address": "0xBC00",
+  "region_size": 512,
+  "slot": 49,
+  "before": "00 00 00 25",
+  "after": "00 00 00 26",
+  "region_changed_offsets": [
+    199
+  ],
+  "report_changed_offsets": [
+    207
+  ],
+  "operation": "prepare",
+  "all_other_511_region_bytes_preserved": true,
+  "fn_layer_written": false,
+  "physical_confirmation": "pending"
+}

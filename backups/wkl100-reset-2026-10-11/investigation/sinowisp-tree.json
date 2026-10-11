@@ -1,0 +1,350 @@
+{
+  "sha": "9caf1c9e4f332388dc4748f3f449d604c66ca43e",
+  "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/9caf1c9e4f332388dc4748f3f449d604c66ca43e",
+  "tree": [
+    {
+      "path": ".envrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3550a30f2de389e537ee40ca5e64a77dc185c79b",
+      "size": 10,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/3550a30f2de389e537ee40ca5e64a77dc185c79b"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c67bad1bce7dfa5ae51297cc90a543c525d80124",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/c67bad1bce7dfa5ae51297cc90a543c525d80124"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23b123b65d4f9eb4c19f5d83895577111264af07",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/23b123b65d4f9eb4c19f5d83895577111264af07"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45dbf82ded476615d6e53451323064de469198e2",
+      "size": 128,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/45dbf82ded476615d6e53451323064de469198e2"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/device-report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cf0380bb59045ce35b949c1674577e6b4c17e3",
+      "size": 2470,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/c8cf0380bb59045ce35b949c1674577e6b4c17e3"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "438f4322bc6c5bfa8416b1170eec8eb61e220991",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/438f4322bc6c5bfa8416b1170eec8eb61e220991"
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2731bfb01dc3388fea0d569e650cf23adc6e57ea",
+      "size": 4065,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/2731bfb01dc3388fea0d569e650cf23adc6e57ea"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2f4c9f085f662d17b45779f5e069c3e2fe9a63d",
+      "size": 53,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/b2f4c9f085f662d17b45779f5e069c3e2fe9a63d"
+    },
+    {
+      "path": "Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6008c4a662fa254abf6777481fddd52096beed",
+      "size": 32647,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/3a6008c4a662fa254abf6777481fddd52096beed"
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b50200b646d68fd381b54dd25257872b1bfdc8",
+      "size": 2016,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/93b50200b646d68fd381b54dd25257872b1bfdc8"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "786e3579af9be52a79502fa7bb4a3c4e19b0e594",
+      "size": 1065,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/786e3579af9be52a79502fa7bb4a3c4e19b0e594"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5120e4d99a2dd45f1979ea543d31ff59c30bacc5",
+      "size": 12757,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/5120e4d99a2dd45f1979ea543d31ff59c30bacc5"
+    },
+    {
+      "path": "flake.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721d7db736c8fd8290f8f9c6f45b349396663f7b",
+      "size": 4483,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/721d7db736c8fd8290f8f9c6f45b349396663f7b"
+    },
+    {
+      "path": "flake.nix",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00fe24f717707622e2ad042eeb82c5d729b418b9",
+      "size": 1986,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/00fe24f717707622e2ad042eeb82c5d729b418b9"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2947de6a82fb2ff02a1508677cccecd791c719",
+      "size": 146,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/bc2947de6a82fb2ff02a1508677cccecd791c719"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e9668812ae8b1365770aa16b6f9980d507b6d0f",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/2e9668812ae8b1365770aa16b6f9980d507b6d0f"
+    },
+    {
+      "path": "src/cli_tests.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b66ab417cb5db9d5b7198ef1c767847abd37c6e",
+      "size": 9290,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/2b66ab417cb5db9d5b7198ef1c767847abd37c6e"
+    },
+    {
+      "path": "src/device_selector.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e7c8ff5f9ba44aa24d0a6dffd7dc2a432ee379",
+      "size": 28812,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/89e7c8ff5f9ba44aa24d0a6dffd7dc2a432ee379"
+    },
+    {
+      "path": "src/device_spec.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed27fd4ce7c9d78244bdbb82dc932916c5c5be4b",
+      "size": 14105,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/ed27fd4ce7c9d78244bdbb82dc932916c5c5be4b"
+    },
+    {
+      "path": "src/fake_hid.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "755a4a4f7957daccd4350c5fa1d41c5bec442fa2",
+      "size": 7033,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/755a4a4f7957daccd4350c5fa1d41c5bec442fa2"
+    },
+    {
+      "path": "src/flasher.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a8224e867bca61e113e996a220d2283223de5d",
+      "size": 8549,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/77a8224e867bca61e113e996a220d2283223de5d"
+    },
+    {
+      "path": "src/hid_tree.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1c09ab2a63031ab2c31bd420b246459039fe00",
+      "size": 5533,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/5b1c09ab2a63031ab2c31bd420b246459039fe00"
+    },
+    {
+      "path": "src/ihex.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a34842a4b3b63c09b5fbc7006988750f4fad61",
+      "size": 5103,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/94a34842a4b3b63c09b5fbc7006988750f4fad61"
+    },
+    {
+      "path": "src/isp_device.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2795fc7f9284e8e40e1bf91a32a044de54b31884",
+      "size": 12419,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/2795fc7f9284e8e40e1bf91a32a044de54b31884"
+    },
+    {
+      "path": "src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146ed1ddf42d718a60025cbbde78060234659fb5",
+      "size": 1060,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/146ed1ddf42d718a60025cbbde78060234659fb5"
+    },
+    {
+      "path": "src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e194482791b40f198a9ea2373c7c4b9131509e6",
+      "size": 18705,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/1e194482791b40f198a9ea2373c7c4b9131509e6"
+    },
+    {
+      "path": "src/platform_spec.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20795142317c86672df6640101e0e615c2b3d40",
+      "size": 1760,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/f20795142317c86672df6640101e0e615c2b3d40"
+    },
+    {
+      "path": "src/util.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52dd19f03655908fa0dd33e24973c5e738a9c761",
+      "size": 9607,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/52dd19f03655908fa0dd33e24973c5e738a9c761"
+    },
+    {
+      "path": "testing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68d215449039dc8d1f220016975d1fd7034496e5",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/68d215449039dc8d1f220016975d1fd7034496e5"
+    },
+    {
+      "path": "testing/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7510e4d8f96b1cec0f3fee3ae33f7fd431441f9",
+      "size": 300,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/e7510e4d8f96b1cec0f3fee3ae33f7fd431441f9"
+    },
+    {
+      "path": "testing/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fee1a218ec3fff933dcbad82b1b376802a95078c",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/fee1a218ec3fff933dcbad82b1b376802a95078c"
+    },
+    {
+      "path": "testing/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9e28737b5b73b4bda7c9e42c6d21d8e22e45cd1",
+      "size": 3729,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/d9e28737b5b73b4bda7c9e42c6d21d8e22e45cd1"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2bab50f57e3629300be0e49afbcabe35e688b6f",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/f2bab50f57e3629300be0e49afbcabe35e688b6f"
+    },
+    {
+      "path": "tests/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b69cb7f06f8ad24e718cab8c8ea7dad07c9bf0ab",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/b69cb7f06f8ad24e718cab8c8ea7dad07c9bf0ab"
+    },
+    {
+      "path": "tests/common/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24fe93cbee2b22e0fa49b40625344cbb2b310ed",
+      "size": 658,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/f24fe93cbee2b22e0fa49b40625344cbb2b310ed"
+    },
+    {
+      "path": "tests/convert_test.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce7eb676269cc280bdfaa38c9bae9a327ef0ee1d",
+      "size": 1974,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/ce7eb676269cc280bdfaa38c9bae9a327ef0ee1d"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b6061be0941e4c15a6a775bb4579425a4f0872e",
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/trees/9b6061be0941e4c15a6a775bb4579425a4f0872e"
+    },
+    {
+      "path": "tests/fixtures/nuphy-air60_smk.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d56720eed4167b94ab7959becda5e36a0c5b74e4",
+      "size": 61440,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/d56720eed4167b94ab7959becda5e36a0c5b74e4"
+    },
+    {
+      "path": "tests/fixtures/nuphy-air60_smk.hex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44bf2c28a984a43df3b378197cfde12cecf8a7fe",
+      "size": 172813,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/44bf2c28a984a43df3b378197cfde12cecf8a7fe"
+    },
+    {
+      "path": "tests/fixtures/nuphy-air60_smk_jtag.hex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2c2f7c4d0d72e7b337e22db99c74cb460965b3d",
+      "size": 168972,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/b2c2f7c4d0d72e7b337e22db99c74cb460965b3d"
+    },
+    {
+      "path": "tests/list_test.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43caab6bda77f3a7c33897707e1d7a02bbab62c6",
+      "size": 3764,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/43caab6bda77f3a7c33897707e1d7a02bbab62c6"
+    },
+    {
+      "path": "tests/protocol_test.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98529ef62727772ec8f65b21daf18bedcabed3c",
+      "size": 4758,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/a98529ef62727772ec8f65b21daf18bedcabed3c"
+    },
+    {
+      "path": "tests/read_test.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b399d628bd6d0ff6bc1c88fa52f52abc56beb6e2",
+      "size": 3853,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/b399d628bd6d0ff6bc1c88fa52f52abc56beb6e2"
+    },
+    {
+      "path": "tests/write_test.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0804ae2b423c0451d456d6d5c16178fcfa619ae2",
+      "size": 2590,
+      "url": "https://api.github.com/repos/carlossless/sinowisp/git/blobs/0804ae2b423c0451d456d6d5c16178fcfa619ae2"
+    }
+  ],
+  "truncated": false
+}

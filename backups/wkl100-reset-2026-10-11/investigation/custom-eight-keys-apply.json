@@ -1,0 +1,39 @@
+{
+  "command": "apply",
+  "slots": {
+    "Y": 38,
+    "U": 44,
+    "I": 50,
+    "O": 56,
+    "G": 33,
+    "F": 27,
+    "V": 28,
+    "B": 34
+  },
+  "requested_colors": {
+    "Y": "red",
+    "U": "red",
+    "I": "red",
+    "O": "red",
+    "G": "green",
+    "F": "green",
+    "V": "green",
+    "B": "green"
+  },
+  "changed_offsets": [
+    38,
+    44,
+    50,
+    56,
+    153,
+    154,
+    159,
+    160
+  ],
+  "before_sha256": "292ba94a0022098c943a3b3add736bfadf422b3e89954790dc01296b38b2056c",
+  "after_sha256": "733ec1cbfe0e6f44a54702a8af5a1b230471408766cf19d1507c27c6efad3c36",
+  "full_512_byte_readback_matches": true,
+  "settings_unchanged": true,
+  "base_map_unchanged": true,
+  "physical_verification": "Owner confirmed Y/U/I/O red and G/F/V/B green"
+}

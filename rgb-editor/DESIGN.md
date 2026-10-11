@@ -1,0 +1,3 @@
+# Color Studio design
+
+This tool extends the existing inspector's dark blue workspace and pale blue action palette. System typography follows the existing utility. It is an editor for operating on a real device: the keyboard is the primary canvas, with adjacent color controls, current-mode status, and a single save action. Key color strips separate lighting color from readable key legends. Selected keys use a pale blue border; unsaved edits carry a small white dot. On narrow screens the controls move below the keyboard, which scrolls within its own area. Native color input and labeled hex input provide complementary input methods. Current effects are factual IDs, example colors are explicitly preview-only, and backups are part of the save flow.

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><title>WKL-100 · Color Studio</title><link rel="stylesheet" href="style.css"><script type="module" src="app.js"></script></head>
+<body>
+<header class="topbar"><a class="brand" href="/">Color Studio <span>WKL-100</span></a><div class="connection"><span id="connection">Disconnected</span><button id="connect">Connect keyboard</button><button id="disconnect" class="quiet" hidden>Disconnect</button></div></header>
+<main>
+<div class="intro"><div><h1>Make every key yours.</h1><p>Choose a key. Pick a color. Save it to your keyboard.</p></div><button id="demo" class="quiet">Explore preview</button></div>
+<div id="status" class="status" role="status" aria-live="polite">Connect your WKL-100 in wired mode to read its current lighting.</div>
+<div class="workspace">
+<section class="canvas" aria-label="Keyboard color editor">
+<div class="canvas-top"><div><h2>Your keyboard</h2><p id="canvas-caption">The colors will appear when you connect.</p></div><div class="mode"><span>On keyboard</span><strong id="current-effect">Not read yet</strong></div></div>
+<div class="keyboard-scroll"><div id="keyboard" class="keyboard" aria-label="Choose keys to color"></div></div>
+<div class="canvas-bottom"><span id="selection-count">No keys selected</span><div><button id="select-all" class="text-button">Select all</button><button id="clear-selection" class="text-button">Clear selection</button></div></div>
+<p class="help">Click a key to edit it. Hold Ctrl or ⌘ while clicking to select more. Shift-click selects a range.</p>
+</section>
+<aside class="controls" aria-label="Color controls">
+<h2 id="selected-label">Choose a key</h2><p id="selected-detail">Every key can have its own color.</p>
+<label class="color-picker" for="color"><input id="color" type="color" value="#ff0000" disabled><span>Pick a color</span></label>
+<label for="hex">Hex color</label><div class="hex-field"><input id="hex" type="text" value="#ff0000" maxlength="7" spellcheck="false" disabled><button id="paint" disabled>Set color</button></div>
+<div id="swatches" class="swatches" aria-label="Quick colors"></div>
+<div class="control-divider"></div>
+<label for="lighting-mode">Lighting mode</label><select id="lighting-mode" disabled><option value="custom">Custom · your colors</option><option value="current">Keep current preset</option></select>
+<p id="mode-help" class="help">Custom mode lets you set each key individually.</p>
+<div class="save-area"><button id="save" class="primary" disabled>Save to keyboard</button><p id="changes">No unsaved changes</p></div>
+</aside>
+</div>
+<div class="utility"><div class="actions"><button id="read" class="quiet" disabled>Read keyboard</button><button id="discard" class="quiet" disabled>Discard edits</button><button id="export" class="quiet" disabled>Export colors</button><label class="file-button quiet" for="import">Import colors<input id="import" type="file" accept=".json,application/json" disabled></label></div><div class="actions"><button id="download-backup" class="text-button" disabled>Download backup</button><button id="restore" class="text-button" disabled>Restore backup</button></div></div>
+<footer><span>Wired USB · desktop Chrome or Edge</span><span>Colors stay on this computer. Saving includes a backup and readback check.</span></footer>
+<noscript>This editor needs JavaScript and WebHID to connect to the keyboard.</noscript>
+</main>
+</body></html>

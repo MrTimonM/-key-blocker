@@ -1,0 +1,23 @@
+{
+  "operation": "apply",
+  "physical_observation": {
+    "owner_reply": "x and c normal but cant press eight",
+    "x_c_normal": true,
+    "expected_macro_output_observed": false,
+    "assessment": "No output reported for top-row 8; playback not validated."
+  },
+  "slot": 49,
+  "trigger_action": "03 00 01 00",
+  "directory_entry": "00 02 11 00",
+  "events_hex": "00 00 32 1e 80 00 32 1e 00 00 32 1f 80 00 32 1f",
+  "base_changed_offsets": [
+    196,
+    198,
+    199
+  ],
+  "expected_output": "12 once",
+  "fn_layer_written": false,
+  "settings_unchanged": true,
+  "custom_table_unchanged": true,
+  "all_written_regions_readback_match": true
+}

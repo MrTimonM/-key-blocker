@@ -1,0 +1,27 @@
+{
+  "events": [
+    {
+      "speed": 1,
+      "readback_matches": true
+    },
+    {
+      "speed": 5,
+      "readback_matches": true
+    },
+    {
+      "speed": 1,
+      "readback_matches": true
+    },
+    {
+      "speed": 5,
+      "readback_matches": true
+    },
+    {
+      "restored": true
+    }
+  ],
+  "physical_observation": {
+    "owner_reply": "i think alll working good as you wrote",
+    "assessment": "Owner reports apparent success; qualitative and tentative, no measured animation period."
+  }
+}

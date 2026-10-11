@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "length": 128,
+    "matches_prior_backup": false,
+    "matches_immediate_pre_upload_sha256": true
+  },
+  "base": {
+    "length": 512,
+    "matches_prior_backup": true,
+    "matches_immediate_pre_upload_sha256": true
+  },
+  "custom": {
+    "length": 512,
+    "matches_prior_backup": true,
+    "matches_immediate_pre_upload_sha256": true
+  }
+}

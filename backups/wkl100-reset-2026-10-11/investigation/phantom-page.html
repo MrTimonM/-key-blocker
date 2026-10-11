@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Phantom Editor — Software / Interface Web para o Teclado SuperFrame Phantom</title>
+  <meta name="description" content="Software e interface web para configurar o teclado SuperFrame Phantom (StarTec MKGP98). Remapeie as camadas Base e Fn direto do navegador via WebHID, sem instalar nada.">
+  <meta name="keywords" content="SuperFrame Phantom, SuperFrame Phantom software, SuperFrame Phantom interface, SuperFrame Phantom UI, software SuperFrame Phantom, software do SuperFrame Phantom, teclado SuperFrame, SuperFrame keyboard, SuperFrame keyboard UI, SuperFrame keyboard software, StarTec MKGP98, MKGP98, remapear teclado, keymap editor, editor de teclado, WebHID, TerabyteShop">
+  <meta name="author" content="Anna Silva">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://sfphantom.notjustanna.net/">
+
+  <!-- Open Graph (Facebook / LinkedIn / Discord previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Phantom Editor">
+  <meta property="og:url" content="https://sfphantom.notjustanna.net/">
+  <meta property="og:title" content="Phantom Editor — Software para o Teclado SuperFrame Phantom">
+  <meta property="og:description" content="Interface web para remapear o teclado SuperFrame Phantom (StarTec MKGP98) direto do navegador. Edite as camadas Base e Fn via WebHID, sem instalar nada.">
+  <meta property="og:image" content="https://sfphantom.notjustanna.net/screenshot.png">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="967">
+  <meta property="og:image:alt" content="Screenshot do Phantom Editor mostrando o layout completo do teclado SuperFrame Phantom com painel de remapeamento à direita.">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sfphantom.notjustanna.net/">
+  <meta name="twitter:title" content="Phantom Editor — Software para o Teclado SuperFrame Phantom">
+  <meta name="twitter:description" content="Interface web para remapear o teclado SuperFrame Phantom (StarTec MKGP98) via WebHID.">
+  <meta name="twitter:image" content="https://sfphantom.notjustanna.net/screenshot.png">
+  <meta name="twitter:image:alt" content="Screenshot do Phantom Editor mostrando o layout do teclado SuperFrame Phantom.">
+
+  <!-- Structured data: tells Google this is a free web-based software tool. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Phantom Editor",
+    "url": "https://sfphantom.notjustanna.net/",
+    "image": "https://sfphantom.notjustanna.net/screenshot.png",
+    "screenshot": "https://sfphantom.notjustanna.net/screenshot.png",
+    "alternateName": ["Software SuperFrame Phantom", "SuperFrame Phantom UI", "SuperFrame Keyboard Editor"],
+    "description": "Interface web para remapear o teclado SuperFrame Phantom (StarTec MKGP98) via WebHID, sem instalar nada.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Web (Chrome / Edge / Brave)",
+    "inLanguage": "pt-BR",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
+    "about": {
+      "@type": "Product",
+      "name": "Teclado SuperFrame Phantom",
+      "model": "StarTec MKGP98",
+      "category": "Mechanical Keyboard"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="brand">Phantom Editor</h1>
+    <div class="connection" id="connection">
+      <span class="status" id="status" data-state="disconnected">Não conectado</span>
+      <button id="connect-btn" type="button" class="primary">Conectar</button>
+    </div>
+    <div class="actions">
+      <button id="reset-btn" type="button" class="ghost" disabled>Restaurar padrão de fábrica</button>
+      <button id="save-btn" type="button" class="primary" disabled>Salvar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="keyboard-pane">
+      <div class="readback-banner" id="readback-banner" hidden>
+        <span class="msg-factory">Mostrando configurações de fábrica.</span>
+        <span class="msg-cached">Mostrando último estado salvo neste navegador.</span>
+      </div>
+      <!-- viewBox set in app.js from KEYBOARD_W / KEYBOARD_H. -->
+      <svg class="keyboard" id="keyboard"
+           xmlns="http://www.w3.org/2000/svg"
+           preserveAspectRatio="xMinYMin meet"
+           aria-label="Layout do teclado"></svg>
+      <p class="hint" id="hint">Clique numa tecla para remapeá-la.</p>
+    </section>
+
+    <aside class="editor-pane" id="editor">
+      <div class="placeholder">Escolha uma tecla para editar Base e Fn.</div>
+    </aside>
+  </main>
+
+  <footer class="disclaimer">
+    <p><strong>Aviso:</strong> Este software é fornecido <em>sem garantia</em> de qualquer espécie
+    e <em>não é afiliado</em> à TerabyteShop nem à SuperFrame. Existe uma chance —
+    por menor que seja — de que o uso indevido inutilize seu teclado. Esta
+    ferramenta foi testada apenas com a
+    <a href="https://arquivos.terabyteshop.com.br/drives/atualizacao-superframe-phantom.zip"
+       target="_blank" rel="noopener">Atualização de Firmware oficial do SuperFrame</a>
+    instalada. Use por sua conta e risco.</p>
+
+    <p><strong>Nenhum teclado SuperFrame Phantom foi aberto</strong> para fazer
+    esse software. Todo o trabalho foi feito por engenharia reversa puramente
+    de software — análise do firmware oficial e do tráfego USB — sem nunca
+    desmontar o teclado nem expor a placa.</p>
+
+    <details class="other-models">
+      <summary>Outros teclados da SuperFrame?</summary>
+      <p><strong>Fora do escopo.</strong> Cada teclado vendido pela SuperFrame é um
+         <em>whitelabel</em> de um fabricante diferente, e nada garante que
+         compartilhem firmware, MCU ou protocolo USB com o Phantom. Para
+         qualquer outro modelo seria necessário um processo de engenharia
+         reversa completo do zero — extrair o firmware, mapear o protocolo
+         do <code>SET_REPORT</code>, descobrir os endereços de flash dos
+         keymaps, e validar tudo empiricamente. Este editor é específico
+         para o <strong>SuperFrame Phantom</strong> (VID <code>258a</code>,
+         PID <code>019d</code>) e só foi testado nele.</p>
+    </details>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
